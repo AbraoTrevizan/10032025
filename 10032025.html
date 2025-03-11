@@ -9,5 +9,62 @@
 
     <h1>Teste da aula do dia 10/03/2025</h1>
 
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Simples</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label>Data:</label>
+        <input type="date" name="data"><br><br>
+
+        <label>Usuário:</label>
+        <input type="text" name="usuario"><br><br>
+
+        <label>Senha:</label>
+        <input type="password" name="senha"><br><br>
+
+        <label>Nome:</label>
+        <input type="text" name="nome"><br><br>
+
+        <label>Endereço:</label>
+        <input type="text" name="endereco"><br><br>
+
+        <label>Cidade:</label>
+        <input list="cidades" name="cidade">
+        <datalist id="cidades">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Minas Gerais">
+        </datalist><br><br>
+
+        <label>Estado:</label>
+        <select name="estado">
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+        </select><br><br>
+
+        <label>Gênero:</label><br>
+        <input type="radio" name="genero" value="Masculino"> Masculino<br>
+        <input type="radio" name="genero" value="Feminino"> Feminino<br><br>
+
+        <label>Cursos:</label><br>
+        <input type="checkbox" name="curso" value="ADS"> ADS<br>
+        <input type="checkbox" name="curso" value="TI"> TI<br><br>
+
+        <label>Modelo:</label><br>
+        <input type="radio" name="modelo" value="Presencial"> Presencial<br>
+        <input type="radio" name="modelo" value="EAD"> EAD<br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
+
 </body>
 </html>
